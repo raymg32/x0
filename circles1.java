@@ -5,18 +5,20 @@ float x,y;
 
 // Setup:  screen size, initialization. //
 void setup() {
-  size(500, 500);        // Try changing the width & height.
+  size(897, 789);        // Try changing the width & height.
   x=  width/2;
   y=  height/2;
 }
 
 // Next frame:  draw three circles. //
 void draw() {
-  ellipse(x, y, 80, 80);
-  ellipse(x+60, y+60, 40, 40);
-  ellipse(x+90, y+90, 20, 20);
+  ellipse(400, y , 390, 390);
+  ellipse(300, 300, 100, 79);
+  ellipse(469, 300, 100, 79);
+  ellipse(400,500,40,40 );
  
-  // Move them???? //--              x=  x + 2;  y=  y + 1;
+  // Move them???? //--
+  x=  x + 2;  y=  y + 1;
   // Insert BREAK here ^
   // to uncomment the above code,
 }
