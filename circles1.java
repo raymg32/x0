@@ -31,5 +31,8 @@ void draw() {
   // Insert BREAK here ^
   // to uncomment the above code,
   //name charlie
-  
+String name = "CHARLIE";
+
+  text ( name, 379,430);
+
 }
